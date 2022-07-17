@@ -1,0 +1,19 @@
+.userWrapTbl {
+    @apply border-2 border-solid border-gray-200 p-[5px];
+}
+.usersTbl {
+    @apply grid text-sm;
+    grid-template-columns:50px 250px 4fr 4fr 1fr 1fr 1fr;
+}
+.usersTblGrid { @apply grid grid-cols-2; }
+.usersTblGrid>* { @apply p-[4px] leading-10 h-10; }
+.usersTbl>* { @apply p-2; }
+.usersTbl>u { @apply cursor-pointer; }
+
+.userOverlay {
+    @apply fixed left-0 right-0 top-0 bottom-0 bg-gray-500/75;
+}
+
+.userOverlayWin {
+    @apply fixed top-[50vh] left-[50vw] translate-x-[-50%] translate-y-[-50%] bg-white p-10;
+}

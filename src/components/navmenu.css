@@ -1,0 +1,17 @@
+#menu--lateral {
+    @apply block w-36 grid h-[100vw];
+    grid-template-columns:1fr 3px;
+}
+.nav--link {
+    @apply block h-10 leading-10 px-2 odd:bg-slate-200;
+}
+.nav--link:hover {
+    @apply bg-gray-800 text-white;
+}
+.nav--link.active { text-decoration:underline; }
+nav {
+    @apply block w-auto;
+}
+.flipLMenu {
+    @apply bg-gray-300;
+}
